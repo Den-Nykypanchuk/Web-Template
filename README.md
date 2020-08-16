@@ -76,5 +76,7 @@
         <li>Visual Studio IntelliCode</li>
         <li><b>Vscode Google Translate</b></li>
         <li>vscode-icons</li>
+        <li>Markdown Preview Enhanced</li>
+        <li>Polacode</li>
     </ul>
 </p>
