@@ -103,4 +103,10 @@ h6 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  background: #fff;
+}
+
+.container {
+  max-width: "";
+  margin: 0 auto;
 }
