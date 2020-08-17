@@ -1,7 +1,7 @@
 //!------------Variables------------
-
+$mxw: "";
+$bgc: #fff;
 //!------------------------------------
-
 //?------------mixin------------
 @mixin font($font_name, $file_name, $weight, $style) {
   @font-face {
@@ -37,8 +37,11 @@ $font_family: "";
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  background: $bgc;
 }
 .container {
+  max-width: $mxw;
+  margin: 0 auto;
 }
 //*---------------------------------------
 
