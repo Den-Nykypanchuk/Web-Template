@@ -34,7 +34,7 @@
 # <h3>Notes</h3>
 
 <h4>ibg</h4>
-<p>Create div class="ibg" and insert the desired image that you want to use as a background</p>
+<p>Create div class="ibg" and insert the desired image using tag img that you want to use as a background</p>
 
 <b>Recommended</b>:</br>
 
