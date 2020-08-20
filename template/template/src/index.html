@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="author" content="Den Nykypanchuk" />
     <meta name="format-detection" content="telephone=no" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=0"/>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=0"
+    />
     <title>Document</title>
     <!--add your own script for connecting to Font Awesome-->
     <script src="" crossorigin="anonymous"></script>
@@ -15,9 +18,13 @@
   <body>
     <div class="wrapper">
       <!--Content-->
-      @@include("_header.html", {})
-      <main class="page"></main>
-      @@include("_footer.html",{})
+      <main class="page">
+        @@include("_header.html", {})
+        <!--If fullscreen is needed-->
+        <div class="main-screen"></div>
+        <div class="content"></div>
+        @@include("_footer.html",{})
+      </main>
     </div>
     <script src="js/script.min.js"></script>
   </body>
