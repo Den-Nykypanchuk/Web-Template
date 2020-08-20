@@ -43,6 +43,23 @@ $font_family: "";
   max-width: $mxw;
   margin: 0 auto;
 }
+//*-----------------ibg-------------------
+//?-explanation of code to look at README-
+.ibg {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  img {
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+  }
+}
 //*---------------------------------------
 
 //TODO------------------------------------
