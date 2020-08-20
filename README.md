@@ -33,6 +33,9 @@
 
 # <h3>Notes</h3>
 
+<h4>ibg</h4>
+<p>Create div class="ibg" and insert the desired image that you want to use as a background</p>
+
 <b>Recommended</b>:</br>
 
 - Use two terminals (the first terminal is open in the folder with path /Web-Template/ for git another is open in the folder with path /web-template/template/template/ for Gulp)</br>
