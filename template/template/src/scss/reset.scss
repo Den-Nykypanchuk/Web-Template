@@ -38,6 +38,9 @@ body {
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+body.lock {
+  overflow: hidden;
+}
 input,
 button,
 textarea {
