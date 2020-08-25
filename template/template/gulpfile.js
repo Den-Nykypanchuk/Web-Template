@@ -15,6 +15,7 @@ let path = {
     html: [source_folder + "/*.html", "!" + source_folder + "/_*.html"],
     css: source_folder + "/scss/style.scss",
     js: source_folder + "/js/script.js",
+    jq: source_folder + "/js/jquery.min.js",
     img: source_folder + "/img/**/*.{jpg,png,svg,gif,ico,webp}",
     fonts: source_folder + "/fonts/*.ttf",
   },
@@ -103,6 +104,10 @@ function js() {
     .pipe(browsersync.stream());
 }
 
+function jq() {
+  return src(path.src.jq).pipe(dest(path.build.js)).pipe(browsersync.stream());
+}
+
 function images() {
   return src(path.src.img)
     .pipe(
@@ -182,7 +187,7 @@ function clean() {
 
 let build = gulp.series(
   clean,
-  gulp.parallel(html, css, js, images, fonts),
+  gulp.parallel(html, css, js, jq, images, fonts),
   fontsStyle
 );
 let watch = gulp.parallel(build, watchFiles, BrowserSync);
@@ -190,6 +195,7 @@ let watch = gulp.parallel(build, watchFiles, BrowserSync);
 exports.fontsStyle = fontsStyle;
 exports.fonts = fonts;
 exports.images = images;
+exports.jq = jq;
 exports.js = js;
 exports.css = css;
 exports.html = html;
