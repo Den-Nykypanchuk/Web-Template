@@ -15,7 +15,10 @@ let path = {
     html: [source_folder + "/*.html", "!" + source_folder + "/_*.html"],
     css: source_folder + "/scss/style.scss",
     js: source_folder + "/js/script.js",
-    jq: source_folder + "/js/jquery.min.js",
+    jq: [
+      source_folder + "/js/jquery.min.js",
+      source_folder + "/js/slick.min.js",
+    ],
     img: source_folder + "/img/**/*.{jpg,png,svg,gif,ico,webp}",
     fonts: source_folder + "/fonts/*.ttf",
   },
