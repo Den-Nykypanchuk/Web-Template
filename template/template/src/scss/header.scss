@@ -1,6 +1,6 @@
 //?-------------"burger"-menu----------
 /*.icon-menu {
-  @media (max-width: 767px){
+  @media (max-width: $mw3){
     display: block;
     position: absolute;
     top: 18px;
