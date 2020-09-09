@@ -20,7 +20,7 @@ $bgc: #fff;
 //?------------------------------------
 
 //?------------fonts------------
-
+//?&subset=cyrillic-ext
 @import "fonts";
 
 //*Default font:
@@ -41,7 +41,7 @@ $font_family: "";
   background: $bgc;
 }
 .container {
-  max-width: $mxw;
+  max-width: $mxw + px;
   margin: 0 auto;
 }
 //*-----------------ibg-------------------
