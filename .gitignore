@@ -1,12 +1,12 @@
 # Node rules:
 ## Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
-.grunt
+# .grunt
 
 ## Dependency directory
 ## Commenting this out is preferred by some people, see
 ## https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git
 node_modules
-package-lock.json
+# package-lock.json
 # Book build output
 _book
 
@@ -73,3 +73,6 @@ $RECYCLE.BIN/
 *.css.map
 *.sass.map
 *.scss.map
+
+# End client folder (after build files)
+dist
