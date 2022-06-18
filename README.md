@@ -1,4 +1,4 @@
-<h1>Web-Template</h1>
+<h1>Web-Template</h1> (Move to new git repo with clear history, please)
 <h3>Free template for web development.</h3></br>
 <h4>Branches:</h4></br>
 1. "master" branch is used to display ready-to-use content.</br>
