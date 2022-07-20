@@ -1,13 +1,13 @@
 <h1>Web-Template</h1> (Move to new git repo with clear history, please)
 <h3>Free template for web development.</h3></br>
 <h4>Branches:</h4></br>
-1. "master" branch is used to display ready-to-use content.</br>
-2. "release" branch is used to display content that still must be tested or is waiting for new updates.</br>
+1. "release" branch is used to display ready-to-use content.</br>
+2. "master" or "main" branch is used to display content that still must be tested or is waiting for new updates.</br>
 3. "development" branch is used to create new content.</br>
 <b>Work cycle in the template</b></br>
 1. Download "development" branch to your computer and work in it.</br>
-2. Merge the "development" branch with "release".</br>
-3. If the content in the "release" branch is ready and stable, merge it with "master".</br>
+2. Merge the "development" branch with "master".</br>
+3. If the content in the "master" branch is ready and stable, merge it with "release".</br>
 
 <b>Be sure to read:</b></br>
 
@@ -17,15 +17,15 @@
 
 <h3>Template description:</h3></br>
 * Folder "TEMP" is used for temporary files in your project such as evaluation materials before the project is ready.</br>
-* Folder "template" contains all project files and source ones.</br></br>
+* Folder "client" contains all project files and source ones.</br></br>
 
-<i>template/ :</i></br>
+<i>client/ :</i></br>
 
 - Folder "source" contains all necessary materials for work (from the customer and/or designer).</br>
 - File "info.txt" include all important information about project such as budget, term, contacts, edits etc .</br>
 - Folder "template" is a workspace.</br>
 
-<i>/template/template/</i> : </br>
+<i>/client/template/</i> : </br>
 
 - Folder "dist" contains the completed project ready for archiving and delivery to the customer.</br>
 - Folder "src" contains all files used in the work.</br>
@@ -38,8 +38,8 @@
 
 <b>Recommended</b>:</br>
 
-- Use two terminals (the first terminal is open in the folder with path /Web-Template/ for git another is open in the folder with path /web-template/template/template/ for Gulp)</br>
-- When the template is downloaded firstly need open a terminal in /web-template/template/template/ and write a command "npm i" in order to download all plugins for gulp.</br>
+- Use two terminals (the first terminal is open in the folder with path /Web-Template/ for git another is open in the folder with path /web-template/client/template/ for Gulp)</br>
+- When the template is downloaded firstly need open a terminal in /web-template/client/template/ and write a command "npm i" in order to download all plugins for gulp.</br>
 
 <p>
     <h3>The list of useful plugins for Visual Studio Code</h3>
